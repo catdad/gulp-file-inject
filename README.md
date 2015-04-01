@@ -34,3 +34,9 @@
             .pipe(gulp.dest('build/js'));
     });
     
+### Notes:
+
+More docs are soon to come, I promise.
+
+This is heavily based on [gulp-replace](https://github.com/lazd/gulp-replace) by [lazd](https://github.com/lazd).
+    
