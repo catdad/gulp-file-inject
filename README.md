@@ -11,7 +11,7 @@
     
     var fs = require('fs');
     
-    function replacer(filename, callback) {
+    function replacer(filepath, filename, callback) {
         // template to inject
         var str = "var template = '{{template}}'";
         
