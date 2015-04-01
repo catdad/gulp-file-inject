@@ -1,6 +1,6 @@
 {
   "name": "gulp-file-inject",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Gulp task to do a regex replace with dynamic content based on the source file",
   "main": "index.js",
   "dependencies": {
