@@ -1,7 +1,7 @@
 {
   "name": "gulp-file-inject",
   "version": "0.0.1",
-  "description": "Inject any content into any other content",
+  "description": "A Gulp task to do a regex replace with dynamic content based on the source file",
   "main": "index.js",
   "dependencies": {
     "replacestream": "^2.1.0",
@@ -11,6 +11,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "homepage": "https://github.com/catdad/gulp-file-inject",
+  "repository": "git://github.com/catdad/gulp-file-inject.git",
   "author": "Kiril Vatev <vatev.1@gmail.com>",
   "license": "ISC"
 }
