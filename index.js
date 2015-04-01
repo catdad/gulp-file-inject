@@ -15,7 +15,7 @@ function regexReplacer(regex, replacer) {
 		}
 		
         // get the content to inject for this file
-		replacer(name, function(err, content) {
+		replacer(filepath, name, function(err, content) {
 			return doReplaceWithContent(content);
 		});
 
