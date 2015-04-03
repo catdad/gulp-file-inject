@@ -30,7 +30,7 @@
     
     gulp.task('inject', function(){
         return gulp.src('js/*.js')
-            .pipe(inject())
+            .pipe(inject(/myregex/g, replacer))
             .pipe(gulp.dest('build/js'));
     });
     
