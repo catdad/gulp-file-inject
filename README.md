@@ -39,4 +39,6 @@
 More docs are soon to come, I promise.
 
 This is heavily based on [gulp-replace](https://github.com/lazd/gulp-replace) by [lazd](https://github.com/lazd).
+
+[![Analytics](https://ga-beacon.appspot.com/UA-17159207-7/gulp-file-inject/readme)](https://github.com/igrigorik/ga-beacon)
     
