@@ -6,7 +6,7 @@ var path = require('path');
 
 function regexReplacer(regex, replacer) {
 	var doReplace = function(file, enc, callback) {
-		var filepath = file.history[0],
+		var filepath = file.path || file.history[0],
 		    name = path.basename(filepath);
 		
         // continue if the file is null
