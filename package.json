@@ -12,7 +12,16 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "https://github.com/catdad/gulp-file-inject",
-  "repository": "git://github.com/catdad/gulp-file-inject.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/catdad/gulp-file-inject.git"
+  },
   "author": "Kiril Vatev <vatev.1@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catdad/gulp-file-inject/issues"
+  },
+  "keywords": [
+    "gulpplugin"
+  ]
 }
