@@ -1,10 +1,20 @@
 # gulp-file-inject
 
-### Install:
+[![Downloads][1]][2] [![Version][3]][2] [![ISC License][4]][5] 
+
+[1]: https://img.shields.io/npm/dm/gulp-file-inject.svg?style=flat
+[2]: https://www.npmjs.com/package/gulp-file-inject
+
+[3]: https://img.shields.io/npm/v/gulp-file-inject.svg
+
+[4]: https://img.shields.io/npm/l/gulp-file-inject.svg?style=flat
+[5]: http://opensource.org/licenses/ISC
+
+## Install:
 
     npm install -D gulp-file-inject
     
-### Use:
+## Use:
 
     var gulp = require('gulp');
     var inject = require('gulp-file-inject');
@@ -34,7 +44,7 @@
             .pipe(gulp.dest('build/js'));
     });
     
-### Notes:
+## Notes:
 
 More docs are soon to come, I promise.
 
